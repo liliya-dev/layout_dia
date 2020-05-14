@@ -1,0 +1,99 @@
+.process__item {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%; }
+
+@media screen and (max-width: 1000px) {
+  .process__item {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%; } }
+
+.process {
+  padding: 148px 14% 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .process__left {
+    margin-top: 100px;
+    width: 32%; }
+  .process__right {
+    width: 49%;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 264px 264px;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+            column-gap: 30px;
+    position: relative; }
+  .process__item {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0 9px 18px rgba(19, 90, 231, 0.03);
+            box-shadow: 0 9px 18px rgba(19, 90, 231, 0.03);
+    border-radius: 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 30px 0 30px 30px;
+    color: #6c788b;
+    z-index: 2; }
+    .process__item:nth-child(odd) {
+      margin-right: 30px;
+      position: relative;
+      top: 88px; }
+    .process__item--number {
+      display: inline-block;
+      background-color: #e5e5e5;
+      color: #2060f6;
+      padding: 2px 11px;
+      border-radius: 23px; }
+
+@media screen and (min-width: 1600px) {
+  .process {
+    padding-left: calc(50% - 575px);
+    padding-right: calc(50% - 575px); } }
+
+@media screen and (max-width: 1340px) {
+  .process > .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .process__right {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .process__left {
+    width: 100%; }
+  .process__item {
+    margin-right: 30px; } }
+
+@media screen and (max-width: 599px) {
+  .process > .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .process__left {
+    width: 100%; }
+  .process__right {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 264px);
+    row-gap: 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .process__item:nth-child(odd) {
+    margin-right: 30px;
+    position: relative;
+    top: 0; } }
+
+/*# sourceMappingURL=process.css.map */

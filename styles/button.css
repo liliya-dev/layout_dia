@@ -1,0 +1,56 @@
+.button {
+  font-weight: normal;
+  font-size: 15px; }
+
+@media screen and (max-width: 1000px) {
+  .button {
+    font-weight: normal;
+    font-size: 14px; } }
+
+.button {
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #2060f6;
+  -webkit-transition: border-color 1s, background-color 1s, opacity 1s;
+  transition: border-color 1s, background-color 1s, opacity 1s;
+  padding: 15px 70px;
+  margin-top: 80px;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid #2060f6;
+  -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+          box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
+  .button:active {
+    border-color: #1a56e0;
+    background-color: #1a56e0;
+    outline: none; }
+  .button:hover {
+    opacity: 0.8; }
+
+.button--learn {
+  outline: none;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #2060f6;
+  -webkit-transition: border-color 1s, background-color 1s, opacity 1s;
+  transition: border-color 1s, background-color 1s, opacity 1s;
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 15px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%; }
+  .button--learn:active {
+    border-color: #1a56e0;
+    background-color: #1a56e0;
+    outline: none; }
+  .button--learn:hover {
+    opacity: 0.8; }
+  .button--learn-link {
+    color: #334563; }
+
+/*# sourceMappingURL=button.css.map */

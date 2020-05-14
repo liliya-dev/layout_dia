@@ -1,0 +1,72 @@
+.rectangle--big {
+  max-width: 140px;
+  max-height: 100px;
+  width: 71.4%;
+  height: 5vw;
+  border: 2px solid #2060f6;
+  border-radius: 15%;
+  -webkit-transform: rotate(-65.1deg);
+          transform: rotate(-65.1deg);
+  -webkit-transition: 1s -webkit-transform;
+  transition: 1s -webkit-transform;
+  transition: 1s transform;
+  transition: 1s transform, 1s -webkit-transform;
+  position: relative;
+  top: 300px; }
+  .rectangle--big:hover {
+    -webkit-transform: rotate(-90.1deg);
+            transform: rotate(-90.1deg); }
+  .rectangle--big:nth-child(odd) {
+    left: 85vw; }
+  .rectangle--big:nth-child(even) {
+    left: 10vw; }
+
+.rectangle--medium {
+  max-width: 120px;
+  max-height: 80px;
+  width: 54%;
+  height: 3.5vw;
+  border: 1.5px solid #2060f6;
+  border-radius: 15%;
+  -webkit-transform: rotate(-65.1deg);
+          transform: rotate(-65.1deg);
+  -webkit-transition: 1s -webkit-transform;
+  transition: 1s -webkit-transform;
+  transition: 1s transform;
+  transition: 1s transform, 1s -webkit-transform;
+  position: relative; }
+  .rectangle--medium:hover {
+    -webkit-transform: rotate(-90.1deg);
+            transform: rotate(-90.1deg); }
+  .rectangle--medium:nth-child(odd) {
+    top: 10vw;
+    left: 75vw; }
+  .rectangle--medium:nth-child(even) {
+    top: -10%;
+    left: 0; }
+
+.rectangle--small {
+  max-width: 100px;
+  max-height: 50px;
+  width: 36%;
+  height: 3vw;
+  border: 1px solid #2060f6;
+  border-radius: 15%;
+  -webkit-transform: rotate(-65.1deg);
+          transform: rotate(-65.1deg);
+  -webkit-transition: 1s -webkit-transform;
+  transition: 1s -webkit-transform;
+  transition: 1s transform;
+  transition: 1s transform, 1s -webkit-transform;
+  position: relative; }
+  .rectangle--small:hover {
+    -webkit-transform: rotate(-90.1deg);
+            transform: rotate(-90.1deg); }
+  .rectangle--small:nth-child(odd) {
+    top: 0;
+    left: 65vw; }
+  .rectangle--small:nth-child(even) {
+    top: 200px;
+    left: 20vw; }
+
+/*# sourceMappingURL=rectangles.css.map */

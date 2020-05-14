@@ -1,0 +1,37 @@
+.slogan {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%; }
+
+@media screen and (max-width: 1000px) {
+  .slogan {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%; } }
+
+.slogan {
+  background-color: white;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 0 0 225px;
+  text-align: center;
+  color: general-text-var2; }
+  .slogan__right {
+    padding-top: 199px;
+    width: 60%; }
+  .slogan__left, .slogan__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .slogan__left, .slogan__space {
+    width: 20%;
+    height: 100%; }
+
+/*# sourceMappingURL=vision.css.map */

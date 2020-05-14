@@ -1,0 +1,1 @@
+{"version":3,"sources":["logo.scss"],"names":[],"mappings":"AAEA;EACE,YAAY;EACZ,WAAW,EAAA;;AAGb;EACE,kBAAkB;EAClB,YAAY;EACZ,WAAW,EAAA","file":"logo.css","sourcesContent":["@import \"_utils.scss\";\n\n.logo {\n  height: 25px;\n  width: 45px;\n}\n\n.icon {\n  margin-right: 15px;\n  height: 24px;\n  width: 24px;\n}\n"]}

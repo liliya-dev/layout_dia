@@ -1,0 +1,60 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .form input,
+  .form textarea {
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #2b2b2b;
+    -webkit-transition: border-color 1s;
+    transition: border-color 1s; }
+    .form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: white;
+      opacity: 0.7; }
+    .form input::-moz-placeholder, .form textarea::-moz-placeholder {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: white;
+      opacity: 0.7; }
+    .form input:-ms-input-placeholder, .form textarea:-ms-input-placeholder {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: white;
+      opacity: 0.7; }
+    .form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: white;
+      opacity: 0.7; }
+    .form input::placeholder,
+    .form textarea::placeholder {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 22px;
+      color: white;
+      opacity: 0.7; }
+    .form input:focus,
+    .form textarea:focus {
+      border-color: #1a56e0; }
+
+/*# sourceMappingURL=form.css.map */

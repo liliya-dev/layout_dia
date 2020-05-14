@@ -1,0 +1,39 @@
+.about__text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%; }
+
+@media screen and (max-width: 1000px) {
+  .about__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%; } }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"); }
+
+.about {
+  background-color: #e5e5e5;
+  padding: 148px 26%; }
+  .about__text {
+    color: #6c788b; }
+
+@media screen and (min-width: 1600px) {
+  .about {
+    padding-left: calc(100% / 2 - 1145px / 2);
+    padding-right: calc(100% / 2 - 1145px / 2); } }
+
+/*# sourceMappingURL=about.css.map */
