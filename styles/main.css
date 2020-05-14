@@ -516,8 +516,8 @@ h1 {
 
 @media screen and (min-width: 1600px) {
   .about {
-    padding-left: calc(100% / 2 - 1145px / 2);
-    padding-right: calc(100% / 2 - 1145px / 2); } }
+    padding-left: calc(50% - 575px);
+    padding-right: calc(50% - 575px); } }
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -811,11 +811,11 @@ h1 {
 @media screen and (max-width: 1100px) {
   .approach__container {
     padding-top: 20px; }
-  .approach__container--right {
-    display: none; }
-  .approach__container--left {
-    width: 95%;
-    margin-right: 2%; } }
+    .approach__container--right {
+      display: none; }
+    .approach__container--left {
+      width: 95%;
+      margin-right: 2%; } }
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -1105,7 +1105,8 @@ h1 {
           -ms-flex-direction: column;
               flex-direction: column; }
       .footer__container--left {
-        width: 100%; }
+        width: 100%;
+        margin-bottom: 35px; }
       .footer__container--right {
         width: 100%; } }
 

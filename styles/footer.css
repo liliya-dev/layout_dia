@@ -80,7 +80,8 @@
           -ms-flex-direction: column;
               flex-direction: column; }
       .footer__container--left {
-        width: 100%; }
+        width: 100%;
+        margin-bottom: 35px; }
       .footer__container--right {
         width: 100%; } }
 
