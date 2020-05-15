@@ -6,8 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  .form input,
-  .form textarea {
+  .form__input, .form__textarea {
     margin-bottom: 32px;
     padding-bottom: 16px;
     padding-top: 16px;
@@ -22,39 +21,37 @@
     background-color: #2b2b2b;
     -webkit-transition: border-color 1s;
     transition: border-color 1s; }
-    .form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+    .form__input::-webkit-input-placeholder, .form__textarea::-webkit-input-placeholder {
       font-weight: 600;
       font-size: 15px;
       line-height: 22px;
       color: white;
       opacity: 0.7; }
-    .form input::-moz-placeholder, .form textarea::-moz-placeholder {
+    .form__input::-moz-placeholder, .form__textarea::-moz-placeholder {
       font-weight: 600;
       font-size: 15px;
       line-height: 22px;
       color: white;
       opacity: 0.7; }
-    .form input:-ms-input-placeholder, .form textarea:-ms-input-placeholder {
+    .form__input:-ms-input-placeholder, .form__textarea:-ms-input-placeholder {
       font-weight: 600;
       font-size: 15px;
       line-height: 22px;
       color: white;
       opacity: 0.7; }
-    .form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder {
+    .form__input::-ms-input-placeholder, .form__textarea::-ms-input-placeholder {
       font-weight: 600;
       font-size: 15px;
       line-height: 22px;
       color: white;
       opacity: 0.7; }
-    .form input::placeholder,
-    .form textarea::placeholder {
+    .form__input::placeholder, .form__textarea::placeholder {
       font-weight: 600;
       font-size: 15px;
       line-height: 22px;
       color: white;
       opacity: 0.7; }
-    .form input:focus,
-    .form textarea:focus {
+    .form__input:focus, .form__textarea:focus {
       border-color: #1a56e0; }
 
 /*# sourceMappingURL=form.css.map */
