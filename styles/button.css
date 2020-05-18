@@ -29,7 +29,7 @@
   .button:hover {
     opacity: 0.8; }
 
-.button--learn {
+.button-learn {
   outline: none;
   cursor: pointer;
   -webkit-box-sizing: border-box;
@@ -44,13 +44,13 @@
   width: 48px;
   height: 48px;
   border-radius: 50%; }
-  .button--learn:active {
+  .button-learn:active {
     border-color: #1a56e0;
     background-color: #1a56e0;
     outline: none; }
-  .button--learn:hover {
+  .button-learn:hover {
     opacity: 0.8; }
-  .button--learn-link {
+  .button-learn__link {
     color: #334563; }
 
 /*# sourceMappingURL=button.css.map */

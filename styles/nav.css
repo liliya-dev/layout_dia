@@ -14,7 +14,7 @@
   max-width: 1145px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  .nav .nav__list-scroll {
+  .nav__list-scroll {
     display: none; }
   .nav__list {
     min-width: 60%;

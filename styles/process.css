@@ -15,6 +15,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .process__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%; }
   .process__left {
     margin-top: 100px;
     width: 32%; }
@@ -27,6 +35,12 @@
        -moz-column-gap: 30px;
             column-gap: 30px;
     position: relative; }
+  .process__number {
+    display: inline-block;
+    background-color: #e5e5e5;
+    color: #2060f6;
+    padding: 2px 11px;
+    border-radius: 23px; }
   .process__item {
     width: 100%;
     margin-bottom: 20px;
@@ -43,12 +57,6 @@
       margin-right: 30px;
       position: relative;
       top: 88px; }
-    .process__item--number {
-      display: inline-block;
-      background-color: #e5e5e5;
-      color: #2060f6;
-      padding: 2px 11px;
-      border-radius: 23px; }
 
 @media screen and (min-width: 1600px) {
   .process {
@@ -56,7 +64,7 @@
     padding-right: calc(50% - 575px); } }
 
 @media screen and (max-width: 1340px) {
-  .process > .container {
+  .process__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -75,7 +83,7 @@
     margin-right: 30px; } }
 
 @media screen and (max-width: 599px) {
-  .process > .container {
+  .process__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
