@@ -10,6 +10,8 @@
     line-height: 150%; } }
 
 .slogan {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: white;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;

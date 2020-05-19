@@ -1,4 +1,8 @@
 .approach {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: #fff; }
   .approach__title {
     color: #fff;

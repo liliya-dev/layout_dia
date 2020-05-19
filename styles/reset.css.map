@@ -1,1 +1,1 @@
-{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAEA;;;;;;;;EAQE,SAAS,EAAA","file":"reset.css","sourcesContent":["@import \"_utils.scss\";\n\nul,\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  margin: 0;\n}\n"]}
+{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAEA;;;;;;;;EAQE,SAAS,EAAA;;AAGX;EACE,qBAAqB,EAAA","file":"reset.css","sourcesContent":["@import \"_utils.scss\";\n\nul,\nbody,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  margin: 0;\n}\n\nli {\n  list-style-type: none;\n}\n"]}
