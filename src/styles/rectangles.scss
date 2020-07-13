@@ -4,7 +4,7 @@
 
   &--big {
     @include background(71.4%, 5vw, 2px,140px,100px);
-    top: 300px;
+    top: 100px;
 
     &:nth-child(odd) {
       left: 83vw;
@@ -23,7 +23,7 @@
       left: 75vw;
     }
     &:nth-child(even) {
-      top: -10%;
+      top: 0;
       left: 0;
     }
   }
@@ -36,7 +36,7 @@
     }
 
     &:nth-child(even) {
-      top: 200px;
+      top: 150px;
       left: 20vw;
     }
   }
