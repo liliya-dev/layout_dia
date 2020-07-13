@@ -45,6 +45,11 @@
     color: #2060f6;
     padding: 2px 11px;
     border-radius: 23px; }
+  .process__main-text {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 150%;
+    color: #6c788b; }
   .process__item {
     width: 100%;
     margin-bottom: 20px;

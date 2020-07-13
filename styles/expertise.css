@@ -33,6 +33,11 @@
     width: 264px;
     max-width: 100%;
     text-align: center; }
+  .expertise__text {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6a778a; }
   .expertise__img {
     border-radius: 20px;
     margin-bottom: 40px;

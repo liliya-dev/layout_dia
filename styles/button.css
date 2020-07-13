@@ -27,7 +27,7 @@
     background-color: #1a56e0;
     outline: none; }
   .button:hover {
-    opacity: 0.8; }
+    opacity: 0.6; }
 
 .button-learn {
   outline: none;
@@ -49,7 +49,7 @@
     background-color: #1a56e0;
     outline: none; }
   .button-learn:hover {
-    opacity: 0.8; }
+    opacity: 0.6; }
   .button-learn__link {
     color: #334563; }
 

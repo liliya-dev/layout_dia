@@ -26,7 +26,7 @@
             justify-content: space-between;
     width: 100%; }
   .feedback__item {
-    min-width: 250px;
+    min-width: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39,7 +39,7 @@
             align-items: center;
     width: 27.4%;
     position: relative;
-    padding: 87px 50px 16px;
+    padding: 87px 20px 16px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     text-align: center;
@@ -95,7 +95,7 @@
       -webkit-transform: scale(1.05);
               transform: scale(1.05); }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1250px) {
   .feedback {
     padding-top: 20px;
     padding-bottom: 20px; }
